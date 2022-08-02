@@ -4,9 +4,9 @@
 
 
 def search(arr, n, x):
-
 	for i in range(0, n):
-        #Complete the function here
+		if x == arr[i]:
+			return i
 	return -1
 
 
